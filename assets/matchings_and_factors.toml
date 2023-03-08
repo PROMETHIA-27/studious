@@ -1,0 +1,113 @@
+[[questions]]
+text = "What is a matching?"
+choices = ["A set of non-loop edges with no shared endpoints"]
+correct = 0
+
+[[questions]]
+text = "What does saturated mean?"
+choices = [
+    "The vertices incident to the edges of a matching M are saturated by M",
+    "The vertices not incident to the edges of a matching M are saturated by M",
+]
+correct = 0
+
+[[questions]]
+text = "What does unsaturated mean?"
+choices = [
+    "The vertices incident to the edges of a matching M are saturated by M",
+    "The vertices not incident to the edges of a matching M are saturated by M",
+]
+correct = 1
+
+[[questions]]
+text = "What is a perfect matching?"
+choices = [
+    "A matching that saturates every vertex"
+]
+correct = 0
+
+[[questions]]
+text = "Does a graph with odd order have any perfect matchings?"
+correct = false
+
+[[questions]]
+text = "What is a maximum matching?"
+choices = [
+    "A matching that cannot be enlarged by adding an edge",
+    "A matching of maximum size among all matchings in the graph",
+]
+correct = 1
+
+[[questions]]
+text = "What is a maximal matching?"
+choices = [
+    "A matching that cannot be enlarged by adding an edge",
+    "A matching of maximum size among all matchings in the graph",
+]
+correct = 0
+
+[[questions]]
+text = "A maximum matching is necessarily maximal"
+correct = true
+
+[[questions]]
+text = "A maximal matching is necessarily maximum"
+correct = false
+
+[[questions]]
+text = "What is an M-alternating path?"
+choices = [
+    "A path that alternates between edges in M and edges not in M",
+    "An M-augmenting path whose endpoints are unsaturated by M"
+]
+correct = 0
+
+[[questions]]
+text = "What is an M-augmenting path?"
+choices = [
+    "A path that alternates between edges in M and edges not in M",
+    "An M-alternating path whose endpoints are unsaturated by M"
+]
+correct = 0
+
+[[questions]]
+text = "When M is a maximum matching, is there an M-augmenting path?"
+correct = false
+
+[[questions]]
+text = "If M is a maximal matching, can there be any M-augmenting paths?"
+correct = true
+
+[[questions]]
+text = "If there are no M-augmenting paths, is M a maximum matching?"
+correct = true
+
+[[questions]]
+text = "What is the symmetric difference of two sets, A and B?"
+choices = [
+    "The set of elements that both share",
+    "The set of elements that exactly one has",
+    "The set of elements that neither have",
+    "The set of elements that A has but B does not",
+]
+correct = 1
+
+[[questions]]
+text = "Every component of the symmetric difference of two matchings is a path or an even cycle"
+correct = true
+
+[[questions]]
+text = "Let M and M' be matchings. Every vertex has at most two incident edges from each of them"
+correct = false
+
+[[questions]]
+text = "A matching M in a graph G is a maximum matching in G if and only if G has no M-augmenting path"
+correct = true
+
+[[questions]]
+text = "An M-augmenting path cannot be used to produce a matching larger than M"
+correct = false
+
+[[questions]]
+text = "An M-alternating path can always be used to produce a matching larger than M"
+correct = false
