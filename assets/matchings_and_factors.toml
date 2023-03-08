@@ -111,3 +111,140 @@ correct = false
 [[questions]]
 text = "An M-alternating path can always be used to produce a matching larger than M"
 correct = false
+
+[[questions]]
+text = "What is Hall's condition?"
+choices = [
+    "If a matching M saturates X, then for every subset S of X there must be at least |S| vertices that have neighbors in S",
+    "If a matching M saturates X, then for every subset S of X there must be at most |S| vertices that have neighbors in S",
+    "If a matching M saturates X, then for every subset S of X there must be exactly |S| vertices that have neighbors in S",
+    "If a matching M saturates X, then for every subset S of X there must be strictly less than |S| vertices that have neighbors in S",
+]
+correct = 0
+
+[[questions]]
+text = "Hall's condition is both necessary and sufficient"
+correct = true
+
+[[questions]]
+text = "For k > 0, every k-regular bipartite graph has a perfect matching"
+correct = true
+
+[[questions]]
+text = "What is a vertex cover?"
+choices = [
+    "A subset Q of V(G) that contains at least one endpoint of every edge",
+    "A set L of edges such that every vertex of G is incident to some edge of L",
+]
+correct = 0
+
+[[questions]]
+text = "The size of a vertex cover is less than the size of a matching"
+correct = false
+
+[[questions]]
+text = "The size of every vertex cover is at least the size of every matching"
+correct = true
+
+[[questions]]
+text = "If a vertex cover and a matching have equal size, then they are both optimal"
+correct = true
+
+[[questions]]
+text = "If G is a bipartite graph, then the maximum size of a matching in G equals the minimum size of a vertex cover in G"
+correct = true
+
+[[questions]]
+text = "What is a dual pair?"
+choices = [
+    "The partitions of a bipartite graph",
+    "Matching minimum and maximum problems",
+]
+correct = 1
+
+[[questions]]
+text = "What is the independence number of a graph?"
+choices = [
+    "The maximum size of an independent set of vertices",
+    "The number of components of a graph",
+    "The number of vertices that can be added to disconnect a graph",
+    "The minimum number of vertices that can be removed to disconnect a graph",
+]
+correct = 0
+
+[[questions]]
+text = "The independence number of a bipartite graph is equal to the size of the largest partition"
+correct = false
+
+[[questions]]
+text = "What is an edge cover?"
+choices = [
+    "A subset Q of V(G) that contains at least one endpoint of every edge",
+    "A set L of edges such that every vertex of G is incident to some edge of L",
+]
+correct = 1
+
+[[questions]]
+text = "A graph with independent vertices has an edge cover"
+correct = false
+
+[[questions]]
+text = "A perfect matching forms an edge cover with n(G)/2 edges"
+correct = true
+
+[[questions]]
+text = "An edge cover can be obtained by adding edges to a maximum matching"
+correct = true
+
+[[questions]]
+text = "What notation is used for the independence number?"
+choices = [
+    "α(G) (alpha)",
+    "α'(G) (alpha prime)",
+    "β(G) (beta)",
+    "β'(G) (beta prime)",
+]
+correct = 0
+
+[[questions]]
+text = "What notation is used for maximum size of a matching?"
+choices = [
+    "α(G) (alpha)",
+    "α'(G) (alpha prime)",
+    "β(G) (beta)",
+    "β'(G) (beta prime)",
+]
+correct = 1
+
+[[questions]]
+text = "What notation is used for minimum size of a vertex cover?"
+choices = [
+    "α(G) (alpha)",
+    "α'(G) (alpha prime)",
+    "β(G) (beta)",
+    "β'(G) (beta prime)",
+]
+correct = 2
+
+[[questions]]
+text = "What notation is used for minimum size of an edge cover?"
+choices = [
+    "α(G) (alpha)",
+    "α'(G) (alpha prime)",
+    "β(G) (beta)",
+    "β'(G) (beta prime)",
+]
+correct = 3
+
+[[questions]]
+text = """In a graph G, the subset S of V(G) is an independent set iff the complement of S is a vertex cover, \
+    and so the independence number of G plus the minimum size of a vertex cover in G equals |G|"""
+correct = true
+
+[[questions]]
+text = "If G is a graph without isolated vertices, the size of the maximum matching and the size of the minimum edge cover sum to |G|"
+correct = true
+
+[[questions]]
+text = "If G is a bipartite graph without isolated vertices, then the independence number of G is equal to the size of the minimum edge cover of G"
+correct = true
